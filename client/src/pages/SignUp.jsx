@@ -59,7 +59,7 @@ export default function SignUp() {
           <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
             <div>
               <Label value="Your username" />
-              <TextInput type="text" placeholder="Username" id="username" onChange={handleChange} />
+              <TextInput type="text" placeholder="name" id="username" onChange={handleChange} />
             </div>
             <div>
               <Label value="Your email" />
@@ -67,7 +67,7 @@ export default function SignUp() {
             </div>
             <div>
               <Label value="Your password" />
-              <TextInput type="password" placeholder="Password" id="password" onChange={handleChange} />
+              <TextInput type="password" placeholder="••••••••••" id="password" onChange={handleChange} />
             </div>
             <Button gradientDuoTone="purpleToPink" type="submit" disabled={loading}>
               {loading ? (
